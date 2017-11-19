@@ -1,12 +1,12 @@
 DRGN Coin v1.0.0
 =======================
 
-DRGN Coin - a fork of Litecoin version with random bonus blocks. Like Litecoin it uses scrypt as a proof of work scheme.
+DRGN Coin - a fork of Litecoin version. Like Litecoin it uses scrypt as a proof of work scheme.
 
    - 1 min block target
    - Difficulty retargets every day with accelerated diff adjustment in the beginning
-   - Initially 32 coins per block, halves every 2 months (100,000 blocks)
-   - Total around 21 millions coins
+   - Initially 16 coins per block, halves every 100,000 blocks
+   - Total around 210 millions coins
    - connection port is 17236, RPC-port 18236
 
 
