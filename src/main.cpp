@@ -887,7 +887,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     unsigned int nProofOfWorkLimit = bnProofOfWorkLimit.GetCompact();
 
     // DRGNcoin difficulty adjustment protocol switch
-    bool fNewDifficultyProtocol = (pindexLast->nHeight+1 >= 69360 || fTestNet);
+    bool fNewDifficultyProtocol = (pindexLast->nHeight+1 >= 20000 || fTestNet);
 
     int64 nTargetTimespanCurrent = fNewDifficultyProtocol ? nTargetTimespan : (nTargetTimespan*12);
     int64 nInterval = nTargetTimespanCurrent / nTargetSpacing;
